@@ -1,1 +1,6 @@
-# CHATBOT_SkillBox
+# SkillBox
+
+Тут собраны итоговые файлы по интенсивам от SkillBox.
+
+## [ChatBot](ChatBot) 
+ Создание чат-бота с искусственным интеллектом на Python.
