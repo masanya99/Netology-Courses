@@ -4,3 +4,5 @@
 
 ### -  [ChatBot](ChatBot) 
 Создание чат-бота с искусственным интеллектом на Python.
+### -  [Machine Learning](ML) 
+Прогноз курса доллара с помощью Python и Machine Learning.
