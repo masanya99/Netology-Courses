@@ -1,6 +1,6 @@
 import requests
 
-N = 1000
+N = 300
 
 list_urls = ['https://vk.com/',
              'https://www.youtube.com/',
@@ -11,4 +11,7 @@ list_urls = ['https://vk.com/',
 for url in list_urls:
     for i in range(N):
         response = requests.get(url)
-        print(f'{url} — #{i} — code: {response.status_code}')
+        if response.status_code != 200:
+            print(f'{url} — #{i} — code: {response.status_code}')
+        else:
+            print(f'{url} — #{i}')
