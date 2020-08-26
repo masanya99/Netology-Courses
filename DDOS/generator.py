@@ -1,7 +1,7 @@
 import random
  
 class PasswordGenerator:
-    '''CONSTANTS'''
+    """CONSTANTS"""
     digits_alphabet = '1234567890'
     letters_alphabet = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
     specsymbols_aphabet = '.,/?!@#$%^&*():;\'"|\\'
