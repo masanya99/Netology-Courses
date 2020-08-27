@@ -1,6 +1,6 @@
 import requests
 
-with open('popular.txt') as f:
+with open('../popular.txt') as f:
     passwords = f.read().split('\n')
 
 for password in passwords:

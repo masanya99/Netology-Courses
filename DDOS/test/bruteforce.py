@@ -23,8 +23,7 @@ while True:
     # check password
     print(length, counter, password)
 
-    response = requests.post('http://127.0.0.1:5000/auth',
-                             json={'login': 'cat', 'password': password})
+    response = requests.post(  'cat', 'password': password})
     print(response.status_code)
     if response.status_code == 200:
         print('SUCCESS', password)

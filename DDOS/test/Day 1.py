@@ -1,4 +1,4 @@
-from generator import PasswordGenerator
+from test.generator import PasswordGenerator
 
 generator1 = PasswordGenerator()
 print(generator1.generate_password())
