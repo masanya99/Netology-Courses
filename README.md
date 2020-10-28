@@ -10,3 +10,5 @@
 Создание генератора паролей для взлома сервера.
 ### -  [Messenger](Messenger) 
 Создание мессенджера на Python.
+### -  [Data Science](Data_Scientist) 
+Обработка и анализ данных на Python.
